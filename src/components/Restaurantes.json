@@ -1,0 +1,130 @@
+{
+    "Restaurantes" : [
+        {
+            "REST_ID" : "01",
+            "NAME" : "Nascente um Gosto de Sol",
+            "ADDRESS" : "R. Paraguai, 86 - Sion, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.948570, -43.933600],
+            "LOGO_REST" : "./imagens/logo01.jpg"
+        },
+        {
+            "REST_ID" : "02" ,
+            "NAME" : "San Ro",
+            "ADDRESS" : "Rua Professor Moraes, 651 - Savassi, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.938850, -43.931580],
+            "LOGO_REST" : "./imagens/logo02.png"
+        },
+        {
+            "REST_ID" : "03" ,
+            "NAME" : "Yan Shan Zay",
+            "ADDRESS" : "Av. Getúlio Vargas, 1220 - Funcionários, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.93728, -43.93459],
+            "LOGO_REST" : "./imagens/logo03.jpg"
+        },
+        {
+            "REST_ID" : "04" ,
+            "NAME" : "SóVeg",
+            "ADDRESS" : "R. Oriente, 389 - Marçola, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.94104, -43.91805],
+            "LOGO_REST" : "./imagens/logo04.png"
+        },
+        {
+            "REST_ID" : "05" ,
+            "NAME" : "Fonte",
+            "ADDRESS" : "Rua dos Guajajaras, 619 - Centro, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.92549, -43.93991],
+            "LOGO_REST" : "./imagens/logo05.png"
+        },
+        {
+            "REST_ID" : "06" ,
+            "NAME" : "Yuan Lai",
+            "ADDRESS" : "R. Vila Rica, 648a - Padre Eustáquio, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.91727, -43.98184],
+            "LOGO_REST" : "./imagens/logo06.jpg"
+        },
+        {
+            "REST_ID" : "07" ,
+            "NAME" : "Mesa do Sábio",
+            "ADDRESS" : "R. Campos Sales, 665 - Nova Suíça, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.9281, -43.97953],
+            "LOGO_REST" : "./imagens/logo07.jpg"
+        },
+        {
+            "REST_ID" : "08" ,
+            "NAME" : "Capim da Serra",
+            "ADDRESS" : "R. Espírito Santo, 2324B - Lourdes, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.93497, -43.94183],
+            "LOGO_REST" : "./imagens/logo08.jpg"
+        },
+        {
+            "REST_ID" : "09" ,
+            "NAME" : "Bem Natural Savassi",
+            "ADDRESS" : "R. Alagoas, 911 - Savassi, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.93513, -43.936],
+            "LOGO_REST" : "./imagens/logo09.jpg"
+        },
+        {
+            "REST_ID" : "11" ,
+            "NAME" : "Formoso",
+            "ADDRESS" : "R. Araguari, 1000 - Santo Agostinho, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.92687, -43.95051],
+            "LOGO_REST" : "./imagens/logo11.png"
+        },
+        {
+            "REST_ID" : "12" ,
+            "NAME" : "Saladeria 365",
+            "ADDRESS" : "R. Mato Grosso, 365 - Barro Preto, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.92136, -43.9474],
+            "LOGO_REST" : "./imagens/logo12.jpg"
+        },
+        {
+            "REST_ID" : "13" ,
+            "NAME" : "Pé de Couve",
+            "ADDRESS" : "R. Goiás, 307 - Centro, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.9261, -43.93524],
+            "LOGO_REST" : "./imagens/logo13.png"
+        },
+        {
+            "REST_ID" : "14" ,
+            "NAME" : "Las Chicas Vegan",
+            "ADDRESS" : "Av. Augusto de Lima, 233 - Centro, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.92465, -43.93797],
+            "LOGO_REST" : "./imagens/logo14.jpg"
+        },
+        {
+            "REST_ID" : "15" ,
+            "NAME" : "Vegans 2Go",
+            "ADDRESS" : "Av. Getúlio Vargas, 1423 - Savassi, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.93865, -43.93602],
+            "LOGO_REST" : "./imagens/logo15.png"
+        },
+        {
+            "REST_ID" : "16" ,
+            "NAME" : "Camaradería Gastrobar",
+            "ADDRESS" : "R. Cláudio Manoel, 555 - Funcionários, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.93432, -43.93046],
+            "LOGO_REST" : "./imagens/logo16.png"
+        },
+        {
+            "REST_ID" : "17" ,
+            "NAME" : "VEGAN CLUB BH",
+            "ADDRESS" : "R. Maj. Lopes, 240 - São Pedro, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.94243, -43.93574],
+            "LOGO_REST" : "./imagens/logo17.png"
+        },
+        {
+            "REST_ID" : "18" ,
+            "NAME" : "Villaveg",
+            "ADDRESS" : "Rua dos Timbiras, 715 - Funcionários, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.92918, -43.93007],
+            "LOGO_REST" : "./imagens/logo18.jpg"
+        },
+        {
+            "REST_ID" : "19" ,
+            "NAME" : "Espaço Namah",
+            "ADDRESS" : "Rua Tomás Gonzaga, 531 - Lourdes, Belo Horizonte",
+            "LOCATION_LAT_LNG" : [-19.93229, -43.94405],
+            "LOGO_REST" : "./imagens/logo19.png"
+        }
+    ]
+}

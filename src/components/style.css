@@ -1,0 +1,312 @@
+body{
+    margin: 10px;
+}
+
+/* NavBar */
+
+#logoNavBar {
+    height: 60px;
+    position:relative;
+}
+
+/* Jumbotron */
+
+.jumbotronConteiner {
+    height: 10px;
+}
+
+.jumbotron {
+    background-image: url(imagens/JumbotronFundo.gif);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+    position: relative;
+}
+
+.tarjaPreta {
+    background-image: linear-gradient(to right, rgb(65, 122, 65, 0.6), rgb(65, 122, 65, 0));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0px !important;
+    left: 0px !important;
+}
+
+.textoJumbotron {
+    z-index: 1;
+}
+
+.tituloJumbotron {
+    font-weight: bolder;
+    font-size: 10vh;
+    color: white;
+    text-shadow: 1px 1px 3px forestgreen, 0 0 19px darkgreen;;
+}
+
+.subJumbText {
+    color: white;
+    text-shadow: 2px 2px 4px black, 0 0 7px darkgreen;;
+    font-size: 4vh !important;
+    margin-left: 10px;
+}
+
+.tituloConteudo{
+    font-size: x-large !important;
+    text-align: center;
+    margin-top: -20px;
+    color: gray;
+}
+
+/* Mapa */
+
+.tamanhoMapa {
+    width: inherit;
+}
+
+.textBold {
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.infoTamanho {
+    max-width: 180px !important;
+}
+
+.fundoCinza {
+    background-color: rgb(241, 240, 240);
+    border-radius: 5%;
+}
+
+.InfoBoxLogo{
+    margin-left: 30%;
+    margin-bottom: 4px;
+}
+
+/* Restaurante cards */
+
+.fotoLogo{
+    height: 100%;
+    width: auto;
+    float: left;
+    border: 1px solid rgb(223, 219, 219);
+    overflow: auto;
+}
+
+.cardTitulo {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-left: 120px;
+}
+
+.cardAddress {
+    padding-left: 120px;
+}
+
+.cardBox {
+    border: 1px solid rgb(204, 204, 204);
+    width: 400px;
+    height: 120px;
+    margin-bottom: auto;
+    padding: 10px;
+    float: left;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.cardContainers {
+    margin: 0 auto;
+    width: inherit;
+}
+
+/* toggle */
+
+.toggleContainer {
+  width: 5%;
+  display: inline-block;
+}
+
+.toggleButton{
+    background-color: rgb(241, 239, 239);
+    border: 1px solid rgb(221, 221, 221);
+    -webkit-box-shadow: 8px 8px 19px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 19px -11px rgba(0,0,0,0.75);
+    box-shadow: 8px 8px 19px -11px rgba(0,0,0,0.75);
+    margin-top: 10px;
+
+}
+
+.toggleButton:active{
+    background-color: white;
+    box-shadow: 0 1px rgb(139, 139, 139);
+    transform: translateY(4px);
+}
+
+.toggleButton:hover {
+    background-color: rgb(183, 209, 183, 0.5); 
+}
+
+.botaoEscolha{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+
+}
+
+.toggleResultado {
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.toggleResultadoRest {
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+    overflow: auto;
+    height: auto;
+  
+}
+
+/* CommentBox */
+
+.title{
+    color: gray !important;
+    font-size: x-large !important;
+}
+
+
+.containerInputArea {
+    width: 40vw;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px 10px;
+    margin: 8px 0;
+    margin-bottom: 5px !important;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: rgb(199, 192, 192);
+    opacity: 1;
+}
+
+.commentFoto {
+    height: 80px;
+    margin: 0 auto;
+    float:left;
+    padding-right: 10px;
+}
+
+.cardComment {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    width: 59vw;
+    height: fit-content;
+    margin-bottom: auto;
+    padding: 20px;
+    float: left;
+    margin-right: auto;
+} 
+
+.containerComment {
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px;
+    height: fit-content;
+    float: left;
+}
+
+@media (min-width: 700px) {
+    .cardContainers {
+        margin-left: 4vw;
+        width: inherit;
+    }
+}
+
+@media (max-width: 699px) {
+    .containerInputArea {
+        width: 60vw;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 15%;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .body{
+        overflow-x: hidden;
+    }
+    
+    .tituloJumbotron {
+        font-size: 8vh;
+    }
+
+    .botaoEscolha{
+        display: block;
+        margin-left: 29%;
+        margin-right: auto;
+        width: 25%;
+    
+    }
+
+    .textBold {
+        font-size: 5vw;
+    }
+
+    .cardBox {
+        width: 70vw;
+        height: initial ;
+     
+    }
+    .fotoLogo{
+        height: 47vw;
+        margin-left: 14%;
+        position: relative;
+    }
+    
+    .cardTitulo {
+        font-size: large;
+        font-weight: bold;
+        padding-top: 8px;
+        position: relative;
+        display: inline-block;
+        padding-left: inherit;
+        padding-right: 20%;
+        padding-left: 15%;
+    }
+    
+    .cardAddress {
+        padding-left: inherit;
+        padding-left: 15%;
+        
+    }
+}
