@@ -21,7 +21,7 @@ class CommentBoxWrap extends Component {
     channel.attach();
       channel.once('attached', () => {
         channel.history((err, page) => {
-          // create a new array with comments only in an reversed order (i.e old to new)
+          
           const comments = Array.from(page.items, item => item.data)
   
           this.setState({ comments });
