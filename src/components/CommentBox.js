@@ -32,6 +32,10 @@ class CommentBox extends Component {
     }
   }
 
+  buttonClicked() {
+    window.scrollBy(0, 90)
+  }
+
   render() {
     return (
       <div id="comentario">
@@ -40,7 +44,7 @@ class CommentBox extends Component {
             <div>
               <input type="text" className="input" name="name" placeholder="Seu nome"/>
               <textarea className="textarea" name="comment" placeholder="Comentário"></textarea>
-              <button onClick={window.scrollBy(0, 90)} className="btn btn-outline-success">Enviar</button>
+              <button onClick={this.buttonClicked} className="btn btn-outline-success">Enviar</button>
           </div>
         </form>
       </div>
